@@ -1,0 +1,372 @@
+{
+	"easycom": { "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"}, 
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+				
+			}
+		}
+	    ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/reg/reg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/findPwd/findPwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        },
+		{
+		    "path" : "pages/jsb/jsb",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "今日笔记",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#19c7b7",
+				"navigationBarTextStyle": "white"
+	
+		    }
+		    
+		},
+		{
+		    "path" : "pages/jsb/addNote/addNote",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "添加笔记",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#1bd9c6",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/jsb/noteDeatils/noteDeatils",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "笔记详情",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#1bd9c6",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/secondHand/addHands/addHands",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "发布闲置",
+		        "enablePullDownRefresh": false
+				
+		    }
+		    
+		},
+		{
+		    "path" : "pages/secondHand/secondHandDetails/secondHandDetails",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "详情",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f7f7f7"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/secondHand/lookHands/lookHands",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "发布求购",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/secondHand/secondHand",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "跳蚤市场",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/lost/lost",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "失物招领",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/lost/goodsRegister/goodsRegister",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "寻找失物",
+		        "enablePullDownRefresh": false
+				
+		    }
+		    
+		},
+		{
+		    "path" : "pages/lost/help/help",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "帮助中心",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/lost/setInfo/setInfo",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "失物登记",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/setting/setting",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "设置",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/setting/accountDetail/accountDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "个人中心",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/setting/accountDetail/setAva/setAva",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "设置头像",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/setting/editUser/editUser",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "编辑资料",
+		        "enablePullDownRefresh": false
+			
+		    }
+		    
+		},
+		{
+		    "path" : "pages/cardDetails/cardDetails",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/baseSetting/baseSetting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/weather/weather",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "天气",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#018efa"
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/newDetail/newDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/recommendDetails/recommendDetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wall/wall",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "校园墙",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fdf6ec"
+            }
+            
+        }
+        ,{
+            "path" : "pages/helper/helper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "校园帮手",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallDetail/wallDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addWall/addWall",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myWall/myWall",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rz/rz",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "学生认证",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/live/live",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的动态",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/accountSafe/accountSafe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账户安全",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/indexSearch/indexSearch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rldj/rldj",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "认领登记",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#f3f3f3",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#528fee",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/images/tapbar/shouye.png",
+	        "selectedIconPath": "static/images/tapbar/home.png",
+	        "text": "首页"
+	    }, 
+		 {
+	        "pagePath": "pages/my/my",
+	        "iconPath": "static/images/tapbar/wode.png",
+	        "selectedIconPath": "static/images/tapbar/my2.png",
+	        "text": "我的"
+	    }
+		]
+	}
+}
